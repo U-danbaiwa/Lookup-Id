@@ -72,8 +72,10 @@ try:
 		print(y+"%"*55)
 except Exception:
 	print(red+"\n\t\tSOMETHING WRONG!!!")
+os.system("chmod +x lookup-id.py")
 	sys.exit()
 print("")
+
 
 #ha=input("\tDID YOU WANT QUIT FROM THE TOOL?: ")
 #if ha=="yes" or ha=="y" or ha=="YES":
